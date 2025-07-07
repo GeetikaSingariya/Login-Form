@@ -1,13 +1,39 @@
-.box{
+/* .box{
      width: 40vw;
      height: 50vh;
-     border: 0.25rem solid black;
-     border-radius: 10px;
+     border: 0.1rem solid white;
+     border-radius: 1.5rem;
    position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.container{
 
+.box h1{
+color: white;
+font-weight: 800;
+text-align:center ;
+}
+
+.box h3{
+  color: white;
+}
+
+body{
+  background-image: url(image.jpeg);
+}
+.checkbox{
+  color: white;
+}
+
+
+box button{
+  padding: 20px;
+  text-align: center;
+  transform: scale(1.5);
+} */
+input{
+   display: inline-block;
+    border-bottom: 2px solid black;
+    padding: 5px;
 }
