@@ -1,39 +1,70 @@
-/* .box{
-     width: 40vw;
-     height: 50vh;
-     border: 0.1rem solid white;
-     border-radius: 1.5rem;
-   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.box h1{
-color: white;
-font-weight: 800;
-text-align:center ;
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
 }
 
-.box h3{
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+a:hover{
+    opacity: 1;
+}
+
+button{
+    margin-top: 1.3rem;
+    width: 50%;
+    height: 10%;
+    border-radius: 5rem;
+    margin-left: 5.7em;
+}
+
+
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("bg.jpg");
+
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(5px);
+}
+
+.login-form {
+  background: transparent;
+  padding: 2rem;
+  border: 2px solid white;
+  border-radius: 1.2rem;
+  height: 23rem;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid white;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem 2rem 0.4rem 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
   color: white;
-}
-
-body{
-  background-image: url(image.jpeg);
-}
-.checkbox{
-  color: white;
-}
-
-
-box button{
-  padding: 20px;
-  text-align: center;
-  transform: scale(1.5);
-} */
-input{
-   display: inline-block;
-    border-bottom: 2px solid black;
-    padding: 5px;
 }
